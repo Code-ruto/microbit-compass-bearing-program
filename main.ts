@@ -18,8 +18,7 @@ basic.forever(function on_forever() {
         basic.showArrow(ArrowNames.West)
     } else if (bearing >= 315) {
         basic.showArrow(ArrowNames.NorthWest)
-    } else {
-        
     }
     
+    return
 })

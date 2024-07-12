@@ -19,6 +19,6 @@ def on_forever():
         basic.show_arrow(ArrowNames.WEST)
     elif bearing >= 315:
         basic.show_arrow(ArrowNames.NORTH_WEST)
-    else:
-        pass
+    return
+        
 basic.forever(on_forever)
